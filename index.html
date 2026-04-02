@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NBA Matchup Report — 31 de Marzo, 2026 | Lock Sports Data</title>
+<title>NBA Matchup Report — 2 de Abril, 2026 | Lock Sports Data</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -22,7 +22,6 @@
 }
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14px;line-height:1.6;-webkit-font-smoothing:antialiased}
-/* NAV */
 .topnav{position:sticky;top:0;z-index:200;display:flex;align-items:center;gap:20px;padding:0 28px;height:52px;background:rgba(8,10,14,.96);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
 .brand{font-family:var(--display);font-size:22px;letter-spacing:3px;color:var(--gold);white-space:nowrap}
 .brand sup{font-family:var(--body);font-size:9px;font-weight:600;letter-spacing:2px;color:var(--text2);vertical-align:super}
@@ -30,7 +29,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .nav-links{display:flex;gap:4px}
 .nav-links a{color:var(--text3);font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;padding:5px 10px;border-radius:4px;text-decoration:none;transition:color .15s,background .15s}
 .nav-links a:hover{color:var(--gold);background:var(--gold-dim)}
-/* HERO */
 .hero{position:relative;padding:52px 28px 44px;text-align:center;overflow:hidden;border-bottom:1px solid var(--border)}
 .hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 50% -10%,rgba(245,166,35,.1),transparent 70%);pointer-events:none}
 .hero-eyebrow{display:inline-flex;align-items:center;gap:6px;font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);border:1px solid rgba(245,166,35,.3);background:var(--gold-dim);padding:4px 14px;border-radius:20px;margin-bottom:18px}
@@ -39,20 +37,16 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .hero-date{font-size:13px;color:var(--text3);letter-spacing:2px;text-transform:uppercase;margin-bottom:22px}
 .hero-chips{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
 .chip{font-size:10px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--text2);padding:4px 12px;border:1px solid var(--border2);border-radius:20px;background:var(--surface2)}
-/* LEGEND */
 .legend{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:10px 28px;background:var(--surface);border-bottom:1px solid var(--border);font-size:11px}
 .legend-title{font-weight:700;letter-spacing:1px;color:var(--text3);text-transform:uppercase}
 .leg{display:flex;align-items:center;gap:5px;color:var(--text2)}
 .leg-dot{width:8px;height:8px;border-radius:2px}
 .leg-dot.g{background:var(--green)}.leg-dot.r{background:var(--red)}.leg-dot.n{background:var(--text3)}
 .legend-note{margin-left:auto;color:var(--text3);font-size:10px}
-/* DATE HEADER */
 .date-header{max-width:1080px;margin:0 auto;padding:30px 28px 12px}
 .date-day{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--text3);margin-bottom:2px}
 .date-full{font-family:var(--display);font-size:26px;letter-spacing:2px;color:var(--text2)}
-/* CONTENT AREA */
 .content{max-width:1080px;margin:0 auto;padding:0 28px 80px}
-/* RESULTS BOX */
 .results-box{margin-bottom:18px;background:rgba(29,185,84,.05);border:1px solid rgba(29,185,84,.18);border-radius:12px;overflow:hidden}
 .results-header{padding:10px 18px;border-bottom:1px solid rgba(29,185,84,.15);display:flex;align-items:center;gap:8px}
 .results-title{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--green)}
@@ -60,7 +54,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .result-item{background:var(--surface);padding:8px 14px;font-size:11px}
 .result-teams{font-family:var(--mono);color:var(--text);font-size:12px;font-weight:600;margin-bottom:1px}
 .result-note{font-size:10px;color:var(--text3)}
-/* GAME CARD */
 .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;margin-bottom:18px;overflow:hidden;transition:border-color .2s}
 .card:hover{border-color:var(--border2)}
 .card.featured{border-color:rgba(245,166,35,.35);background:linear-gradient(180deg,rgba(245,166,35,.04) 0%,var(--surface) 50%)}
@@ -72,7 +65,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .tag-tv{font-size:9px;font-weight:700;background:rgba(6,182,212,.1);color:#22d3ee;border:1px solid rgba(6,182,212,.25);padding:3px 9px;border-radius:4px}
 .tag-alert{font-size:9px;font-weight:700;background:rgba(245,166,35,.1);color:var(--gold);border:1px solid rgba(245,166,35,.25);padding:3px 9px;border-radius:4px}
 .tag-playin{font-size:9px;font-weight:700;background:rgba(124,58,237,.12);color:#c084fc;border:1px solid rgba(124,58,237,.3);padding:3px 9px;border-radius:4px}
-/* ODDS STRIP */
 .odds-strip{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--border)}
 .odds-cell{padding:11px 16px;border-right:1px solid var(--border)}
 .odds-cell:last-child{border-right:none}
@@ -80,7 +72,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .odds-val{font-family:var(--mono);font-size:14px;font-weight:500;color:var(--text)}
 .odds-val.hi{color:var(--gold)}
 .odds-sub{font-size:10px;color:var(--text3);margin-top:1px}
-/* STATS TABLE */
 .stats-wrap{padding:14px 20px 0}
 .stats-tbl{width:100%;border-collapse:collapse;font-size:13px}
 .stats-tbl th{text-align:left;font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--text3);padding:8px 10px;border-bottom:1px solid var(--border)}
@@ -93,7 +84,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .adv-a{background:var(--green-dim);color:#4ade80}
 .adv-h{background:var(--red-dim);color:#fc8181}
 .adv-e{background:rgba(78,86,104,.25);color:var(--text3)}
-/* ANALYSIS */
 .analysis{padding:14px 20px 18px}
 .section-label{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--text3);margin-bottom:8px;padding-top:14px;border-top:1px solid var(--border)}
 .analysis-lead{font-size:13px;color:var(--text2);line-height:1.75;margin-bottom:10px}
@@ -102,7 +92,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .bullets li::before{content:'▸';position:absolute;left:0;color:var(--gold);font-size:10px;top:2px}
 .bullets li strong{color:var(--text)}
 .pred-bullet{background:var(--gold-dim);border:1px solid rgba(245,166,35,.2);border-radius:6px;padding:7px 12px;font-size:12px;color:var(--text);margin-top:4px}
-/* CONCLUSIONS */
 .conclusions{margin-top:28px;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden}
 .concl-header{padding:18px 24px 14px;border-bottom:1px solid var(--border);background:linear-gradient(90deg,var(--gold-dim),transparent)}
 .concl-header h2{font-family:var(--display);font-size:24px;letter-spacing:2px;color:var(--text)}
@@ -115,7 +104,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .concl-pick{font-family:var(--display);font-size:22px;letter-spacing:1px;color:var(--gold);margin-bottom:3px}
 .concl-sub{font-size:10px;color:var(--text3);margin-bottom:9px}
 .concl-body{font-size:12px;color:var(--text2);line-height:1.65}
-/* INJURIES */
 .injuries{margin-top:18px;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden}
 .inj-header{display:flex;align-items:center;gap:16px;flex-wrap:wrap;padding:14px 22px;border-bottom:1px solid var(--border)}
 .inj-title{font-family:var(--display);font-size:20px;letter-spacing:2px;color:var(--text);flex:1}
@@ -141,7 +129,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .sbadge.q{background:rgba(245,158,11,.15);color:#fbbf24}
 .sbadge.gt{background:rgba(6,182,212,.15);color:#22d3ee}
 .sbadge.prob{background:rgba(29,185,84,.15);color:#4ade80}
-/* FOOTER */
 .footer{background:var(--surface);border-top:1px solid var(--border);padding:30px 28px;margin-top:36px}
 .footer-inner{max-width:1080px;margin:0 auto}
 .footer-sources{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-bottom:18px}
@@ -151,38 +138,29 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 .footer-brand{font-size:11px;color:var(--text3);text-align:center;line-height:1.6}
 .footer-brand strong{color:var(--text2)}
 .footer-disc{margin-top:10px;font-size:10px;color:var(--text3);text-align:center;max-width:680px;margin-left:auto;margin-right:auto;line-height:1.6}
-@media(max-width:680px){
-  .odds-strip{grid-template-columns:1fr 1fr}
-  .nav-links{display:none}
-  .concl-grid{grid-template-columns:1fr}
-  .hero,.content,.date-header{padding-left:16px;padding-right:16px}
-  .topnav{padding:0 16px}
-}
+@media(max-width:680px){.odds-strip{grid-template-columns:1fr 1fr}.nav-links{display:none}.concl-grid{grid-template-columns:1fr}.hero,.content,.date-header{padding-left:16px;padding-right:16px}.topnav{padding:0 16px}}
 </style>
 </head>
 <body>
 
-<!-- NAV -->
 <nav class="topnav">
   <div class="brand">LOCK <sup>Sports Data</sup></div>
   <div class="nav-sep"></div>
   <nav class="nav-links">
-    <a href="#j1">PHX-ORL</a>
-    <a href="#j2">CHA-BKN</a>
-    <a href="#j3">DAL-MIL</a>
-    <a href="#j4">TOR-DET</a>
-    <a href="#j5">NYK-HOU</a>
-    <a href="#j6">CLE-LAL</a>
-    <a href="#j7">POR-LAC</a>
+    <a href="#j1">PHX-CHA</a>
+    <a href="#j2">MIN-DET</a>
+    <a href="#j3">LAL-OKC</a>
+    <a href="#j4">CLE-GSW</a>
+    <a href="#j5">NOP-POR</a>
+    <a href="#j6">SAS-LAC</a>
     <a href="#conclusiones">Picks</a>
   </nav>
 </nav>
 
-<!-- HERO -->
 <header class="hero">
   <div class="hero-eyebrow">🏀 NBA Matchup PRO Report</div>
   <h1 class="hero-title">NBA Matchup <span class="accent">PRO</span><br>Report</h1>
-  <p class="hero-date">31 de Marzo, 2026 &mdash; 7 partidos · Martes NBA</p>
+  <p class="hero-date">2 de Abril, 2026 &mdash; 6 partidos · Jueves NBA</p>
   <div class="hero-chips">
     <span class="chip">Cuotas DK</span>
     <span class="chip">Spread</span>
@@ -193,7 +171,6 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
   </div>
 </header>
 
-<!-- LEGEND -->
 <div class="legend">
   <span class="legend-title">Clave:</span>
   <div class="leg"><div class="leg-dot g"></div>Verde = Ventaja visitante</div>
@@ -201,433 +178,366 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
   <div class="leg"><div class="leg-dot n"></div>Gris = Parejo</div>
   <span style="color:var(--border2)">|</span>
   <span style="font-size:10px;color:var(--text3)">Net Rating = diferencial pts anotados − permitidos por 100 posesiones</span>
-  <span class="legend-note">Cuotas: DraftKings (The Odds API) | Probas: Polymarket | Standings: SportsRadar — 31 Mar 2026</span>
+  <span class="legend-note">Cuotas: DraftKings (API) | Probas: Polymarket | Standings: SportsRadar — 2 Abr 2026</span>
 </div>
 
-<!-- DATE -->
 <div class="date-header">
-  <div class="date-day">Martes</div>
-  <div class="date-full">31 de Marzo, 2026</div>
+  <div class="date-day">Jueves</div>
+  <div class="date-full">2 de Abril, 2026</div>
 </div>
 
 <div class="content">
 
-<!-- RESULTADOS DEL LUNES -->
+<!-- RESULTADOS DEL MIÉRCOLES 1° ABRIL -->
 <div class="results-box">
   <div class="results-header">
-    <span class="results-title">⚡ Resultados del Lunes 30 de Marzo — 8 partidos</span>
+    <span class="results-title">⚡ Resultados del Miércoles 1° de Abril — 7 partidos</span>
   </div>
   <div class="results-grid">
-    <div class="result-item"><div class="result-teams">MIA 119 — PHI 109</div><div class="result-note">MIA W1 · Bam + Herro responden en Kaseya</div></div>
-    <div class="result-item"><div class="result-teams">ATL 112 — BOS 102</div><div class="result-note">🔥 ATL W2 · 10-0 locales últimos 10 · Johnson 20/12</div></div>
-    <div class="result-item"><div class="result-teams">PHX 131 — MEM 105</div><div class="result-note">PHX W2 · cubre -12.5 · Booker + KD dominan</div></div>
-    <div class="result-item"><div class="result-teams">SAS 129 — CHI 114</div><div class="result-note">🤯 WEMBY 41 PTS / 16 REB · Player of Night</div></div>
-    <div class="result-item"><div class="result-teams">MIN 124 — DAL 94</div><div class="result-note">MIN W1 · cubre -8.5 · Edwards dominante</div></div>
-    <div class="result-item"><div class="result-teams">CLE 122 — UTA 113</div><div class="result-note">CLE W2 · Mitchell 28 pts · UTA L6 en racha</div></div>
-    <div class="result-item"><div class="result-teams">OKC 114 — DET 110 OT</div><div class="result-note">🔥 OT épico · OKC W3 · 60-16 en temporada</div></div>
-    <div class="result-item"><div class="result-teams">LAL 120 — WAS 101</div><div class="result-note">LAL W3 · LeBron lidera sin Luka · 🏀 Luka regresa HOY</div></div>
+    <div class="result-item"><div class="result-teams">ORL ganó @ ATL</div><div class="result-note">ORL W1 · se confirman standings adjuntos</div></div>
+    <div class="result-item"><div class="result-teams">CHA 117 — BKN 86</div><div class="result-note">CHA cubre -18.5 · UNDER · LaMelo + Knueppel</div></div>
+    <div class="result-item"><div class="result-teams">DET 127 — TOR 116</div><div class="result-note">DET W1 · cubre -3.5 · OVER 220.5</div></div>
+    <div class="result-item"><div class="result-teams">HOU 111 — NYK 94</div><div class="result-note">HOU W4 🔥 · NYK L3 · KD + Sengun</div></div>
+    <div class="result-item"><div class="result-teams">MIL 123 — DAL 99</div><div class="result-note">😮 UPSET · MIL +2.5 cubre · DAL L2</div></div>
+    <div class="result-item"><div class="result-teams">LAL 127 — CLE 113</div><div class="result-note">🔥 Luka 3er juego 40+ pts · 15,000 puntos carrera</div></div>
+    <div class="result-item"><div class="result-teams">POR 114 — LAC 104</div><div class="result-note">POR W2 · cubre +4.5 · LAC L1 · Play-In Oeste</div></div>
+    <div class="result-item"><div class="result-teams">SAS Player of Night</div><div class="result-note">🤩 Wemby Player of Night Apr.1 · SAS W10</div></div>
   </div>
 </div>
 
-<!-- ─── J1: PHX @ ORL ─── -->
+<!-- ─── J1: PHX @ CHA ─── -->
 <div class="card" id="j1">
   <div class="card-head">
     <span class="game-num">Juego 1</span>
-    <span class="game-matchup">Phoenix Suns (+2.5) @ Orlando Magic (-2.5)</span>
-    <span class="game-time">6:10 PM CST · Kia Center, Orlando</span>
-    <span class="tag-playin">Play-In Oeste 7°</span>
+    <span class="game-matchup">Phoenix Suns (+5.5) @ Charlotte Hornets (-5.5)</span>
+    <span class="game-time">7:10 PM CST · Spectrum Center, Charlotte</span>
+    <span class="tag-playin">Play-In Este vs Play-In Oeste</span>
+  </div>
+  <div class="odds-strip">
+    <div class="odds-cell">
+      <div class="odds-lbl">Total O/U (DK)</div>
+      <div class="odds-val">223.5</div>
+      <div class="odds-sub">Over -110 / Under -110</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">ML (DK)</div>
+      <div class="odds-val">CHA -205 · PHX +170</div>
+      <div class="odds-sub">CHA gran favorito en casa</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">Polymarket</div>
+      <div class="odds-val hi">CHA 67% / PHX 34%</div>
+      <div class="odds-sub">CHA consolida Play-In Este</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">Spread DK</div>
+      <div class="odds-val">CHA -5.5 (-108) · PHX +5.5 (-112)</div>
+    </div>
+  </div>
+  <div class="stats-wrap">
+    <table class="stats-tbl">
+      <thead><tr><th>Estadística</th><th>Suns (visitante)</th><th>Hornets (local)</th><th>Ventaja</th></tr></thead>
+      <tbody>
+        <tr><td>Récord</td><td>42-34 · 7° Oeste Play-In</td><td>40-36 · 8° Este Play-In</td><td><span class="adv adv-a">PHX</span></td></tr>
+        <tr><td>Pts anotados/partido</td><td>112.9</td><td>116.1</td><td><span class="adv adv-h">CHA</span></td></tr>
+        <tr><td>Pts permitidos/partido</td><td>111.1</td><td>111.4</td><td><span class="adv adv-a">PHX</span></td></tr>
+        <tr><td>Net Rating</td><td>+1.78</td><td>+4.68</td><td><span class="adv adv-h">CHA</span></td></tr>
+        <tr><td>Racha activa</td><td>L1</td><td>W1</td><td><span class="adv adv-h">CHA</span></td></tr>
+        <tr><td>Últimos 10</td><td>3-7</td><td>7-3</td><td><span class="adv adv-h">CHA</span></td></tr>
+        <tr><td>Rec. Local</td><td>—</td><td>19-19 (50%)</td><td><span class="adv adv-e">PAR</span></td></tr>
+        <tr><td>Rec. Visitante</td><td>18-19 (49%)</td><td>—</td><td><span class="adv adv-e">PAR</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="analysis">
+    <div class="section-label">Lo que está en juego — Play-In Este (8°) CHA vs Play-In Oeste (7°) PHX · Knueppel vs Booker</div>
+    <p class="analysis-lead">Charlotte (40-36, 8° Este Play-In, W1) recibe a Phoenix (42-34, 7° Oeste Play-In, L1) en Spectrum Center. PHX sale muy mermado: <strong>Mark Williams OUT</strong> (pie), <strong>Highsmith OUT</strong> (rodilla), <strong>Coffey OUT</strong> (tobillo) — tres bajas en la rotación. <strong>Kon Knueppel</strong> (ROY 71% Polymarket, ~19 PPG) y <strong>LaMelo Ball</strong> lideran a una CHA que va 7-3 últimos 10 y viene de destruir a BKN 117-86 ayer. Net de CHA +4.68 vs PHX +1.78 — la ventaja de métricas favorece al local.</p>
+    <ul class="bullets">
+      <li><strong>PHX con rotación corta: 3 bajas en defensa/banca</strong>: Sin Williams, Highsmith y Coffey, PHX pierde profundidad defensiva y reboteadora. Booker y KD cargarán solos pero contra una CHA en forma con net superior. El spread abrió en -5 y cerró en -5.5 — la cobertura de CHA es el movimiento más consistente del jueves en casa.</li>
+      <li><strong>CHA net +4.68 + 7-3 últimos 10</strong>: El mejor equilibrio de métricas/forma de todos los equipos locales del jueves. 8-2 en casa últimos 10. Knueppel en el mejor momento de su temporada. El debate ROY Knueppel vs Flagg es la narrativa individual más caliente de la liga actualmente.</li>
+      <li><strong>PHX L1 + 3-7 últimos 10 — en caída libre</strong>: PHX no es el mismo equipo de diciembre. Sin Curry ni Bradley Beal long-term, el equipo ha caído al Play-In. 18-19 de visitante (49%) con la rotación al completo — ahora con tres ausencias significativas viaja a Charlotte.</li>
+      <li class="pred-bullet">🎯 Predicción: CHA 119 — PHX 106 · Knueppel 24 pts + LaMelo 22 pts dominan Spectrum Center; CHA cubre -5.5 cómodamente ante un PHX mermado en bajas y en L1 con 3-7 últimos 10.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ─── J2: MIN @ DET ─── -->
+<div class="card" id="j2">
+  <div class="card-head">
+    <span class="game-num">Juego 2</span>
+    <span class="game-matchup">Minnesota Timberwolves (+3.5) @ Detroit Pistons (-3.5)</span>
+    <span class="game-time">7:10 PM CST · Little Caesars Arena, Detroit</span>
+    <span class="tag-tv">📺 Amazon Prime</span>
   </div>
   <div class="odds-strip">
     <div class="odds-cell">
       <div class="odds-lbl">Total O/U (DK)</div>
       <div class="odds-val">224.5</div>
-      <div class="odds-sub">Over -115 / Under -105</div>
+      <div class="odds-sub">Over -112 / Under -108</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">ML (DK)</div>
-      <div class="odds-val">ORL -135 · PHX +114</div>
-      <div class="odds-sub">Favorito local sólido</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Polymarket</div>
-      <div class="odds-val hi">ORL ~62% / PHX ~40%</div>
-      <div class="odds-sub">ORL favorito en Kia Center</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Spread DK</div>
-      <div class="odds-val">ORL -2.5 (-108) · PHX +2.5 (-112)</div>
-    </div>
-  </div>
-  <div class="stats-wrap">
-    <table class="stats-tbl">
-      <thead>
-        <tr><th>Estadística</th><th>Suns (visitante)</th><th>Magic (local)</th><th>Ventaja</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Récord</td><td>42-33 · 7° Oeste</td><td>39-35 · 8° Este</td><td><span class="adv adv-a">PHX</span></td></tr>
-        <tr><td>Pts anotados/partido</td><td>112.9</td><td>115.3</td><td><span class="adv adv-h">ORL</span></td></tr>
-        <tr><td>Pts permitidos/partido</td><td>111.1</td><td>115.1</td><td><span class="adv adv-a">PHX</span></td></tr>
-        <tr><td>Net Rating</td><td>+1.85</td><td>+0.20</td><td><span class="adv adv-a">PHX</span></td></tr>
-        <tr><td>Racha activa</td><td>W2</td><td>L1</td><td><span class="adv adv-a">PHX</span></td></tr>
-        <tr><td>Últimos 10</td><td>4-6</td><td>3-7</td><td><span class="adv adv-a">PHX</span></td></tr>
-        <tr><td>Rec. Local</td><td>—</td><td>22-14 (61%)</td><td><span class="adv adv-h">ORL</span></td></tr>
-        <tr><td>Rec. Visitante</td><td>18-18 (50%)</td><td>—</td><td><span class="adv adv-e">PAR</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="analysis">
-    <div class="section-label">Lo que está en juego — Play-In Oeste 7° PHX (42-33) vs Play-In Este 8° ORL (39-35)</div>
-    <p class="analysis-lead">Phoenix (42-33, 7° Oeste, W2 tras destruir MEM 131-105 ayer) visita al Kia Center de Orlando (39-35, 8° Este, L1 tras la derrota histórica 87-139 vs TOR el domingo). La peor derrota de la temporada de ORL pesa psicológicamente — perder por 52 puntos ante TOR fue humillante. <strong>Franz Wagner</strong> sigue OUT (tobillo), <strong>Paolo Banchero</strong> activo. PHX mantiene el 7° seed con 1 juego de ventaja sobre LAC (8°).</p>
-    <ul class="bullets">
-      <li><strong>PHX W2 + net superior +1.85 vs +0.20 de ORL</strong>: Booker y KD activos, ambos contribuyendo con 25+ pts vs MEM ayer. PHX 18-18 de visitante — parejo pero suficiente para un ORL en L1 con Wagner OUT. 4-6 últimos 10 para PHX no inspira confianza pero 3-7 de ORL es peor.</li>
-      <li><strong>ORL 22-14 en Kia Center (61%) — único argumento</strong>: Sin Wagner, Banchero carga solo. ORL 3-7 últimos 10 es el peor registro de últimos-10 de todos los locales del martes. La derrota 87-139 vs TOR fue devastadora mentalmente y estadísticamente.</li>
-      <li><strong>Spread -2.5 para ORL</strong>: La línea mínima refleja la incertidumbre real. ORL en casa pero sin forma, PHX de visitante pero en W2. El mercado ORL -135 / PHX +114 da a PHX valor real como underdog visitante.</li>
-      <li class="pred-bullet">🎯 Predicción: ORL 112 — PHX 109 · Banchero con 28 pts aprovecha el factor Kia Center; ORL gana por el mínimo pero el margen no cubre el -2.5 con facilidad ante PHX W2 con KD activo.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- ─── J2: CHA @ BKN ─── -->
-<div class="card" id="j2">
-  <div class="card-head">
-    <span class="game-num">Juego 2</span>
-    <span class="game-matchup">Charlotte Hornets (-17.5) @ Brooklyn Nets (+17.5)</span>
-    <span class="game-time">6:40 PM CST · Barclays Center, Brooklyn</span>
-  </div>
-  <div class="odds-strip">
-    <div class="odds-cell">
-      <div class="odds-lbl">Total O/U (DK)</div>
-      <div class="odds-val">219.5</div>
-      <div class="odds-sub">Over -105 / Under -115</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">ML (DK)</div>
-      <div class="odds-val">CHA -1800 · BKN +1000</div>
-      <div class="odds-sub">CHA favorito masivo</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Polymarket</div>
-      <div class="odds-val hi">CHA ~88% / BKN ~13%</div>
-      <div class="odds-sub">Mercado descarta a BKN</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Spread DK</div>
-      <div class="odds-val">CHA -17.5 (-108) · BKN +17.5 (-112)</div>
-    </div>
-  </div>
-  <div class="stats-wrap">
-    <table class="stats-tbl">
-      <thead>
-        <tr><th>Estadística</th><th>Hornets (visitante)</th><th>Nets (local)</th><th>Ventaja</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Récord</td><td>39-36 · 10° Este Play-In</td><td>18-57 · 13° Este</td><td><span class="adv adv-a">CHA</span></td></tr>
-        <tr><td>Pts anotados/partido</td><td>116.1</td><td>106.3</td><td><span class="adv adv-a">CHA</span></td></tr>
-        <tr><td>Pts permitidos/partido</td><td>111.8</td><td>115.4</td><td><span class="adv adv-a">CHA</span></td></tr>
-        <tr><td>Net Rating</td><td>+4.33</td><td>-9.13</td><td><span class="adv adv-a">CHA</span></td></tr>
-        <tr><td>Racha activa</td><td>L2</td><td>W1</td><td><span class="adv adv-h">BKN</span></td></tr>
-        <tr><td>Últimos 10</td><td>7-3</td><td>1-9</td><td><span class="adv adv-a">CHA</span></td></tr>
-        <tr><td>Rec. Local</td><td>—</td><td>10-26 (28%)</td><td><span class="adv adv-a">CHA</span></td></tr>
-        <tr><td>Rec. Visitante</td><td>20-17 (54%)</td><td>—</td><td><span class="adv adv-a">CHA</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="analysis">
-    <div class="section-label">Lo que está en juego — CHA (10° Este Play-In) busca ganar terreno · BKN en tanking</div>
-    <p class="analysis-lead">Charlotte (39-36, 10° Este Play-In, L2) visita Brooklyn (18-57, W1) en el partido más unilateral del martes. <strong>LaMelo Ball</strong> (19.7 PPG, 24.2 PPG últimos 5), <strong>Kon Knueppel</strong> (19 PPG, ROY 71% Polymarket) y <strong>Miles Bridges</strong> activos para CHA. BKN en tanking total, 1-9 últimos 10, net -9.13. CHA viene de L2 (vs BOS y vs MIA) pero la calidad del rival no admite comparación.</p>
-    <ul class="bullets">
-      <li><strong>CHA 7-3 últimos 10 + net +4.33 vs -9.13 BKN</strong>: Diferencial de net rating de +13.46. CHA 20-17 de visitante (54%). LaMelo activo buscando cortar L2. La única debilidad de CHA en este partido es su tendencia a relajarse contra rivales de bajo nivel.</li>
-      <li><strong>BKN 10-26 en Barclays (28%) + 1-9 últimos 10</strong>: El peor record local del martes. Solo 106.3 PPG — el peor ataque activo de la NBA esta temporada. Egor Demin el único jugador con potencial a desarrollar. BKN gana el draft lottery apostando a perder.</li>
-      <li><strong>Total 219.5 — el segundo más bajo del martes</strong>: BKN 106.3 PPG ofensivo es el freno natural del total. CHA puede abrir el marcador rápidamente y estabilizar la rotación. El UNDER 219.5 tiene respaldo matemático con BKN siendo el peor equipo ofensivo del martes.</li>
-      <li class="pred-bullet">🎯 Predicción: CHA 124 — BKN 101 · LaMelo Ball con 26 pts lidera la victoria; CHA cubre -17.5 cómodamente ante un BKN que solo pone 10-26 de record local y 106.3 PPG de ataque.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- ─── J3: DAL @ MIL ─── -->
-<div class="card" id="j3">
-  <div class="card-head">
-    <span class="game-num">Juego 3</span>
-    <span class="game-matchup">Dallas Mavericks (-1.5) @ Milwaukee Bucks (+1.5)</span>
-    <span class="game-time">7:10 PM CST · Fiserv Forum, Milwaukee</span>
-  </div>
-  <div class="odds-strip">
-    <div class="odds-cell">
-      <div class="odds-lbl">Total O/U (DK)</div>
-      <div class="odds-val">228.5</div>
-      <div class="odds-sub">Over -105 / Under -115</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">ML (DK)</div>
-      <div class="odds-val">DAL -115 · MIL -105</div>
-      <div class="odds-sub">Virtualmente Pick'em</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Polymarket</div>
-      <div class="odds-val hi">DAL ~55% / MIL ~47%</div>
-      <div class="odds-sub">Parejo — ambos en tanking</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Spread DK</div>
-      <div class="odds-val">DAL -1.5 (-105) · MIL +1.5 (-115)</div>
-    </div>
-  </div>
-  <div class="stats-wrap">
-    <table class="stats-tbl">
-      <thead>
-        <tr><th>Estadística</th><th>Mavericks (visitante)</th><th>Bucks (local)</th><th>Ventaja</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Récord</td><td>24-51 · 13° Oeste</td><td>29-45 · 11° Este</td><td><span class="adv adv-h">MIL</span></td></tr>
-        <tr><td>Pts anotados/partido</td><td>113.6</td><td>110.4</td><td><span class="adv adv-a">DAL</span></td></tr>
-        <tr><td>Pts permitidos/partido</td><td>119.0</td><td>116.9</td><td><span class="adv adv-h">MIL</span></td></tr>
-        <tr><td>Net Rating</td><td>-5.43</td><td>-6.43</td><td><span class="adv adv-a">DAL</span></td></tr>
-        <tr><td>Racha activa</td><td>L1</td><td>L4</td><td><span class="adv adv-a">DAL</span></td></tr>
-        <tr><td>Últimos 10</td><td>3-7</td><td>2-8</td><td><span class="adv adv-a">DAL</span></td></tr>
-        <tr><td>Rec. Local</td><td>—</td><td>16-21 (43%)</td><td><span class="adv adv-a">DAL</span></td></tr>
-        <tr><td>Rec. Visitante</td><td>10-26 (28%)</td><td>—</td><td><span class="adv adv-h">MIL</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="analysis">
-    <div class="section-label">Lo que está en juego — Partido de tanking · Cooper Flagg vs MIL sin Giannis</div>
-    <p class="analysis-lead">El partido con menor atractivo competitivo del martes: Dallas (24-51, L1 vs MIN 94-124) visita Milwaukee (29-45, L4) en Fiserv Forum. <strong>Cooper Flagg</strong> sigue brillando para DAL (27 pts vs CLE el 28-mar), motivado individualmente para demostrar valor de cara al Draft. <strong>Giannis Antetokounmpo</strong> OUT para MIL (sin especificar). Ambos equipos sin motivación de postseason — el resultado más difícil de predecir del martes.</p>
-    <ul class="bullets">
-      <li><strong>DAL -1.5 de visitante — spread sorprendente</strong>: El mercado ve a DAL (24-51, 10-26 visitante) como ligeramente favorito sobre MIL (29-45) sin Giannis. La razón: DAL net -5.43 vs MIL -6.43, y MIL L4 es más disfuncional actualmente. Cooper Flagg elevará el nivel individual de DAL.</li>
-      <li><strong>MIL L4 + sin Giannis + 16-21 en Fiserv (43%)</strong>: 2-8 últimos 10. Sin Giannis, MIL depende de Portis y Khris Middleton (si activo). La cancha local no es ventaja cuando el equipo es 16-21 en casa. El spread Pick'em refleja dos equipos igualmente mediocres.</li>
-      <li><strong>Total 228.5 — equilibrado</strong>: DAL permite 119 PPG pero anota 113.6. MIL anota 110.4 PPG. El Over 228.5 tiene soporte si DAL ataca con Flagg, pero el Under también es viable si ambos equipos priorizan el tanking sobre el ataque.</li>
-      <li class="pred-bullet">🎯 Predicción: DAL 117 — MIL 114 · Flagg con 22 pts en Fiserv Forum en un partido ajustado; DAL net ligeramente superior y MIL L4 sin Giannis inclina la balanza por el mínimo margen.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- ─── J4: TOR @ DET ─── -->
-<div class="card" id="j4">
-  <div class="card-head">
-    <span class="game-num">Juego 4</span>
-    <span class="game-matchup">Toronto Raptors (+2.5) @ Detroit Pistons (-2.5)</span>
-    <span class="game-time">7:10 PM CST · Little Caesars Arena, Detroit</span>
-  </div>
-  <div class="odds-strip">
-    <div class="odds-cell">
-      <div class="odds-lbl">Total O/U (DK)</div>
-      <div class="odds-val">220.5</div>
-      <div class="odds-sub">Over -108 / Under -112</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">ML (DK)</div>
-      <div class="odds-val">DET -135 · TOR +114</div>
+      <div class="odds-val">DET -162 · MIN +136</div>
       <div class="odds-sub">DET sólido favorito local</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">Polymarket</div>
-      <div class="odds-val hi">DET ~62% / TOR ~40%</div>
-      <div class="odds-sub">DET busca revancha del OT</div>
+      <div class="odds-val hi">DET ~65% / MIN ~37%</div>
+      <div class="odds-sub">1° Este vs 6° Oeste · Prime</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">Spread DK</div>
-      <div class="odds-val">DET -2.5 (-105) · TOR +2.5 (-115)</div>
+      <div class="odds-val">DET -3.5 (-105) · MIN +3.5 (-115)</div>
     </div>
   </div>
   <div class="stats-wrap">
     <table class="stats-tbl">
-      <thead>
-        <tr><th>Estadística</th><th>Raptors (visitante)</th><th>Pistons (local)</th><th>Ventaja</th></tr>
-      </thead>
+      <thead><tr><th>Estadística</th><th>Wolves (visitante)</th><th>Pistons (local)</th><th>Ventaja</th></tr></thead>
       <tbody>
-        <tr><td>Récord</td><td>42-32 · 5° Este</td><td>54-21 · 1° Este</td><td><span class="adv adv-h">DET</span></td></tr>
-        <tr><td>Pts anotados/partido</td><td>114.3</td><td>117.4</td><td><span class="adv adv-h">DET</span></td></tr>
-        <tr><td>Pts permitidos/partido</td><td>112.0</td><td>109.6</td><td><span class="adv adv-h">DET</span></td></tr>
-        <tr><td>Net Rating</td><td>+2.36</td><td>+7.87</td><td><span class="adv adv-h">DET</span></td></tr>
-        <tr><td>Racha activa</td><td>W2</td><td>L1</td><td><span class="adv adv-a">TOR</span></td></tr>
+        <tr><td>Récord</td><td>46-29 · 6° Oeste</td><td>55-21 · 1° Este</td><td><span class="adv adv-h">DET</span></td></tr>
+        <tr><td>Pts anotados/partido</td><td>117.9</td><td>117.5</td><td><span class="adv adv-e">PAR</span></td></tr>
+        <tr><td>Pts permitidos/partido</td><td>114.1</td><td>109.6</td><td><span class="adv adv-h">DET</span></td></tr>
+        <tr><td>Net Rating</td><td>+3.84</td><td>+7.91</td><td><span class="adv adv-h">DET</span></td></tr>
+        <tr><td>Racha activa</td><td>W1</td><td>W1</td><td><span class="adv adv-e">PAR</span></td></tr>
         <tr><td>Últimos 10</td><td>6-4</td><td>7-3</td><td><span class="adv adv-h">DET</span></td></tr>
-        <tr><td>Rec. Local</td><td>—</td><td>28-9 (76%)</td><td><span class="adv adv-h">DET</span></td></tr>
-        <tr><td>Rec. Visitante</td><td>21-16 (57%)</td><td>—</td><td><span class="adv adv-a">TOR</span></td></tr>
+        <tr><td>Rec. Local</td><td>—</td><td>29-9 (76%)</td><td><span class="adv adv-h">DET</span></td></tr>
+        <tr><td>Rec. Visitante</td><td>21-15 (58%)</td><td>—</td><td><span class="adv adv-a">MIN</span></td></tr>
       </tbody>
     </table>
   </div>
   <div class="analysis">
-    <div class="section-label">Lo que está en juego — 1° Este vs 5° Este · DET responde tras OT L vs OKC</div>
-    <p class="analysis-lead">El partido más interesante del bloque de las 7:10 PM CST: Detroit (54-21, 1° Este, L1 en OT heroico vs OKC 110-114) recibe a Toronto (42-32, 5° Este, W2). <strong>Brandon Ingram</strong> viene de 34 pts vs ORL ayer. Sin <strong>Cade Cunningham</strong> (pulmón colapsado), DET sale con Duren, Ausar Thompson y Tobias Harris en casa — donde es 28-9 (76%). La motivación de revancha es máxima en Little Caesars Arena.</p>
+    <div class="section-label">Lo que está en juego — 1° Este vs 6° Oeste · DET busca consolidar ventaja sobre BOS · Prime Video</div>
+    <p class="analysis-lead">El primer partido de alto voltaje del jueves en Prime: Detroit (55-21, 1° Este, W1, net +7.91) recibe a Minnesota (46-29, 6° Oeste, W1, net +3.84) en Little Caesars Arena. DET viene de demoler a TOR 127-116 ayer. Sin <strong>Cade Cunningham</strong> (pulmón colapsado), DET sale con Duren, Ausar Thompson, Harris y Daniss Jenkins — el sistema más resiliente del Este sin su estrella. <strong>Anthony Edwards</strong> (27+ PPG último mes) y <strong>Rudy Gobert</strong> llevan a un MIN que busca mantenerse en el top-5 del Oeste ante DEN (49-28, W7).</p>
     <ul class="bullets">
-      <li><strong>DET 28-9 en casa (76%) + L1 motivada</strong>: La primera L de DET en semanas fue en OT épico vs OKC. En casa, DET es el equipo más difícil de la liga junto a SAS. Net +7.87 vs TOR +2.36. Sin Cade, el sistema defensivo de DET sigue siendo elite — 109.6 PPG permitidos (mejor defensa del Este).</li>
-      <li><strong>TOR W2 + Brandon Ingram 34 pts ayer</strong>: TOR viene caliente — W2 activas (vs ORL 139-87 ayer, y TOR vs WAS el domingo). Ingram, RJ Barrett y el sistema de Darko Rajakovic son los argumentos ofensivos. TOR 21-16 de visitante (57%) — el mejor record de visitante de los equipos de este bloque.</li>
-      <li><strong>Total 220.5 — el más bajo defensivo del martes</strong>: DET permite 109.6 PPG (mejor defensa del Este). TOR permite 112.0 PPG (top-5 del Este). El UNDER 220.5 tiene el respaldo matemático más sólido del martes — estas defensas no se abren fácilmente.</li>
-      <li class="pred-bullet">🎯 Predicción: DET 113 — TOR 107 · Jalen Duren 18 pts + 13 reb domina el interior; DET responde la L del OT con una victoria sólida en casa ante un TOR ofensivamente dependiente de Ingram.</li>
+      <li><strong>DET 29-9 en Little Caesars (76%) + net +7.91</strong>: El mejor record local del jueves. Net diferencial de +4.07 sobre MIN. DET ha ganado 7 de los últimos 10 y viene de W1 vs TOR. Sin Cade, la defensa élite de DET (109.6 PPG concedidos) sigue siendo el arma principal. La historia de DET: 14-68 hace dos años, 55-21 hoy — una de las remontadas más épicas de la historia NBA.</li>
+      <li><strong>MIN W1 + Edwards activo</strong>: Edwards en su mejor momento de la temporada. Gobert dominando el juego interior. Julius Randle como tercer scorer. 21-15 de visitante (58%) — el mejor record de road de los visitantes del jueves. MIN necesita ganar para mantenerse sobre HOU (47-29, W4) en la lucha del 5to seed Oeste.</li>
+      <li><strong>Total 224.5 — la más dura competencia defensiva del bloque temprano</strong>: DET 109.6 PPG concedidos vs MIN 114.1 PPG concedidos. El UNDER 224.5 tiene respaldo en dos defensas de calidad, aunque MIN anota 117.9 PPG — el ataque más potente de los dos. El Over podría llegar si Edwards explota.</li>
+      <li class="pred-bullet">🎯 Predicción: DET 116 — MIN 110 · Jalen Duren 20 pts + 15 reb domina Little Caesars; DET net superior (+7.91) y factor local (76%) neutralizan a un Edwards que no tendrá un juego fácil contra la mejor defensa del Este.</li>
     </ul>
   </div>
 </div>
 
-<!-- ─── J5: NYK @ HOU ─── -->
-<div class="card" id="j5">
-  <div class="card-head">
-    <span class="game-num">Juego 5</span>
-    <span class="game-matchup">New York Knicks (+1.5) @ Houston Rockets (-1.5)</span>
-    <span class="game-time">7:10 PM CST · Toyota Center, Houston</span>
-  </div>
-  <div class="odds-strip">
-    <div class="odds-cell">
-      <div class="odds-lbl">Total O/U (DK)</div>
-      <div class="odds-val hi">217.5</div>
-      <div class="odds-sub">Over -118 / Under -102</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">ML (DK)</div>
-      <div class="odds-val hi">HOU -112 · NYK -108</div>
-      <div class="odds-sub">Parejo — NYK ligeramente ML</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Polymarket</div>
-      <div class="odds-val hi">HOU ~54% / NYK ~48%</div>
-      <div class="odds-sub">3° Este vs 6° Oeste · Pick'em</div>
-    </div>
-    <div class="odds-cell">
-      <div class="odds-lbl">Spread DK</div>
-      <div class="odds-val hi">HOU -1.5 (+102) · NYK +1.5 (-122)</div>
-    </div>
-  </div>
-  <div class="stats-wrap">
-    <table class="stats-tbl">
-      <thead>
-        <tr><th>Estadística</th><th>Knicks (visitante)</th><th>Rockets (local)</th><th>Ventaja</th></tr>
-      </thead>
-      <tbody>
-        <tr><td>Récord</td><td>48-27 · 3° Este</td><td>45-29 · 6° Oeste</td><td><span class="adv adv-a">NYK</span></td></tr>
-        <tr><td>Pts anotados/partido</td><td>116.8</td><td>114.4</td><td><span class="adv adv-a">NYK</span></td></tr>
-        <tr><td>Pts permitidos/partido</td><td>110.5</td><td>110.1</td><td><span class="adv adv-h">HOU</span></td></tr>
-        <tr><td>Net Rating</td><td>+6.31</td><td>+4.30</td><td><span class="adv adv-a">NYK</span></td></tr>
-        <tr><td>Racha activa</td><td>L2</td><td>W2</td><td><span class="adv adv-h">HOU</span></td></tr>
-        <tr><td>Últimos 10</td><td>7-3</td><td>5-5</td><td><span class="adv adv-a">NYK</span></td></tr>
-        <tr><td>Rec. Local</td><td>—</td><td>25-10 (71%)</td><td><span class="adv adv-h">HOU</span></td></tr>
-        <tr><td>Rec. Visitante</td><td>20-18 (53%)</td><td>—</td><td><span class="adv adv-a">NYK</span></td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="analysis">
-    <div class="section-label">Lo que está en juego — Brunson + KAT vs KD + Sengun · NYK busca cortar L2 en Toyota Center</div>
-    <p class="analysis-lead">El partido más competitivo del primer bloque: <strong>Jalen Brunson</strong> (26.2 PPG, 3° scorer del Este) y los Knicks (48-27, 3° Este, L2) buscan cortarla en Toyota Center ante <strong>Kevin Durant</strong> (25.8 PPG) y los Rockets (45-29, 6° Oeste, W2). Partido Pick'em en el spread — HOU favorito a +102 (positivo!), lo que lo hace el precio más atractivo del día para el favorito local. NYK net +6.31 supera a HOU +4.30. Total 217.5 — el más bajo del martes.</p>
-    <ul class="bullets">
-      <li><strong>HOU -1.5 a +102 — precio excepcional para el favorito</strong>: Normalmente un favorito de -1.5 cuesta -115 a -120. DK ofrece HOU -1.5 a +102. Esto significa valor matemático real para tomar HOU. 25-10 en Toyota Center (71%) + W2 activa. KD (25.8 PPG) y Sengun (21.3 PPG/10.2 REB) activos.</li>
-      <li><strong>NYK net superior +6.31 pero L2 activa</strong>: A pesar de la mejor neta, NYK lleva L2 por derrotas vs CHA y vs OKC. KAT y Brunson activos. 20-18 de visitante (53%) — sólido pero contra la mejor defensa del Southwest. NYK ML -108 ofrece valor si se cree en la neta superior.</li>
-      <li><strong>Total 217.5 — el más bajo del martes</strong>: NYK permite 110.5 PPG y HOU 110.1 PPG — las dos mejores defensas del bloque de las 7:10. El UNDER 217.5 tiene el respaldo defensivo más fuerte del martes junto a TOR @ DET. Partidos entre dos buenas defensas raramente superan sus totales.</li>
-      <li class="pred-bullet">🎯 Predicción: HOU 111 — NYK 108 · KD con 27 pts en Toyota Center aprovecha el momentum W2 local; HOU -1.5 a +102 es el precio más valioso del martes para el favorito.</li>
-    </ul>
-  </div>
-</div>
-
-<!-- ─── J6: CLE @ LAL — JUEGO DEL DÍA ─── -->
-<div class="card featured" id="j6">
+<!-- ─── J3: LAL @ OKC — JUEGO DEL DÍA ─── -->
+<div class="card featured" id="j3">
   <div class="card-head">
     <span class="game-num">🎯 Juego del Día</span>
-    <span class="game-matchup">Cleveland Cavaliers (+2.5) @ Los Angeles Lakers (-2.5)</span>
-    <span class="game-time">9:40 PM CST · Crypto.com Arena, Los Ángeles</span>
+    <span class="game-matchup">Los Angeles Lakers (+9.5) @ Oklahoma City Thunder (-9.5)</span>
+    <span class="game-time">8:40 PM CST · Paycom Center, OKC</span>
     <span class="tag-featured">⭐ FEATURED</span>
-    <span class="tag-alert">🏀 Luka Doncic REGRESA</span>
+    <span class="tag-tv">📺 Amazon Prime</span>
+    <span class="tag-alert">🔥 Luka 15K puntos carrera</span>
   </div>
   <div class="odds-strip">
     <div class="odds-cell">
       <div class="odds-lbl">Total O/U (DK)</div>
-      <div class="odds-val hi">236.5</div>
-      <div class="odds-sub">Over -110 / Under -110</div>
+      <div class="odds-val hi">232.5</div>
+      <div class="odds-sub">Over -105 / Under -115</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">ML (DK)</div>
-      <div class="odds-val hi">LAL -130 · CLE +110</div>
-      <div class="odds-sub">LAL favorito local con Luka</div>
+      <div class="odds-val hi">OKC -375 · LAL +295</div>
+      <div class="odds-sub">OKC gran favorito en casa</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">Polymarket</div>
-      <div class="odds-val hi">LAL ~63% / CLE ~39%</div>
-      <div class="odds-sub">Luka regresa · 3° Oeste vs 4° Este</div>
+      <div class="odds-val hi">OKC 73% / LAL 28%</div>
+      <div class="odds-sub">$18.38K vol · Luka vs SGA</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">Spread DK</div>
-      <div class="odds-val hi">LAL -2.5 (-102) · CLE +2.5 (-118)</div>
+      <div class="odds-val hi">OKC -9.5 (-102) · LAL +9.5 (-118)</div>
     </div>
   </div>
   <div class="stats-wrap">
     <table class="stats-tbl">
-      <thead>
-        <tr><th>Estadística</th><th>Cavaliers (visitante)</th><th>Lakers (local)</th><th>Ventaja</th></tr>
-      </thead>
+      <thead><tr><th>Estadística</th><th>Lakers (visitante)</th><th>Thunder (local)</th><th>Ventaja</th></tr></thead>
       <tbody>
-        <tr><td>Récord</td><td>47-28 · 4° Este</td><td>49-26 · 3° Oeste</td><td><span class="adv adv-h">LAL</span></td></tr>
-        <tr><td>Pts anotados/partido</td><td>119.4</td><td>116.7</td><td><span class="adv adv-a">CLE</span></td></tr>
-        <tr><td>Pts permitidos/partido</td><td>115.1</td><td>114.7</td><td><span class="adv adv-h">LAL</span></td></tr>
-        <tr><td>Net Rating</td><td>+4.29</td><td>+1.96</td><td><span class="adv adv-a">CLE</span></td></tr>
-        <tr><td>Racha activa</td><td>W2</td><td>W3</td><td><span class="adv adv-h">LAL</span></td></tr>
-        <tr><td>Últimos 10</td><td>7-3</td><td>9-1</td><td><span class="adv adv-h">LAL</span></td></tr>
-        <tr><td>Rec. Local</td><td>—</td><td>25-12 (68%)</td><td><span class="adv adv-h">LAL</span></td></tr>
-        <tr><td>Rec. Visitante</td><td>23-14 (62%)</td><td>—</td><td><span class="adv adv-a">CLE</span></td></tr>
+        <tr><td>Récord</td><td>50-26 · 3° Oeste</td><td>60-16 · 1° Oeste</td><td><span class="adv adv-h">OKC</span></td></tr>
+        <tr><td>Pts anotados/partido</td><td>116.8</td><td>118.6</td><td><span class="adv adv-h">OKC</span></td></tr>
+        <tr><td>Pts permitidos/partido</td><td>114.7</td><td>107.6</td><td><span class="adv adv-h">OKC</span></td></tr>
+        <tr><td>Net Rating</td><td>+2.12</td><td>+10.97</td><td><span class="adv adv-h">OKC</span></td></tr>
+        <tr><td>Racha activa</td><td>W4</td><td>W3</td><td><span class="adv adv-a">LAL</span></td></tr>
+        <tr><td>Últimos 10</td><td>9-1</td><td>9-1</td><td><span class="adv adv-e">PAR</span></td></tr>
+        <tr><td>Rec. Local</td><td>—</td><td>32-6 (84%)</td><td><span class="adv adv-h">OKC</span></td></tr>
+        <tr><td>Rec. Visitante</td><td>24-14 (63%)</td><td>—</td><td><span class="adv adv-a">LAL</span></td></tr>
       </tbody>
     </table>
   </div>
   <div class="analysis">
-    <div class="section-label">Lo que está en juego — Luka regresa · Donovan Mitchell vs Doncic · 3° Oeste vs 4° Este · 236.5 total</div>
-    <p class="analysis-lead"><strong>Luka Doncic REGRESA</strong> (suspensión de 1 juego cumplida vs WAS ayer) para el partido más importante del martes en Crypto.com Arena. LAL (49-26, 3° Oeste, W3, 9-1 últimos 10) vs <strong>Cleveland Cavaliers</strong> (47-28, 4° Este, W2). <strong>Donovan Mitchell</strong> (~27 PPG) vs Luka (32.9 PPG, #1 scorer de la liga). Total 236.5 — el más alto del martes por 8 puntos de margen, reflejando el potencial ofensivo de Luka + LeBron + Mitchell + Harden en cancha. Potencial matchup de Finales si las siembras se mantienen.</p>
+    <div class="section-label">Lo que está en juego — Luka vs SGA · 1° vs 3° Oeste · SGA 2-0 vs Luka temporada · 15,000 pts Luka</div>
+    <p class="analysis-lead"><strong>Luka Doncic</strong> (ayer alcanzó los 15,000 puntos de carrera — el 6to jugador más rápido en lograrlo; 3er juego consecutivo con 40+ pts) visita el Paycom Center de <strong>SGA</strong> (31.4 PPG, MVP Tracker BBRef 28.3%) y los Thunder (60-16, 1° Oeste, 9-1 últimos 10, net +10.97 — el mejor de la liga). OKC es 2-0 contra LAL esta temporada. El spread abrió en -8.5 y subió a -9.5 por acción sharp a favor de OKC. Dirk Nowitzki describió a Luka como "unarguable" — el debate MVP más grande de la semana. Sin Marcus Smart (tobillo), LAL sale con Luka, Reaves, LeBron, LaRavia y Ayton.</p>
     <ul class="bullets">
-      <li><strong>Luka regresa + LAL 9-1 en los últimos 10 con Luka en cancha</strong>: De los 9 victorias en los últimos 10 de LAL, Luka jugó en 9 de ellas. El único resultado diferente fue la suspensión de ayer sin él (ganaron igual vs WAS 120-101). Con Luka en Crypto.com (25-12, 68%), el sistema ofensivo de JJ Redick se reactiva completamente. Precio -102 para LAL -2.5 es valor excepcional para el favorito.</li>
-      <li><strong>CLE net +4.29 superior pero el "Luka factor" cambia todo</strong>: Donovan Mitchell (W2, 7-3 últimos 10), Jarrett Allen dominando el interior, James Harden como playmaker. CLE 23-14 de visitante (62%) — el mejor record de road del martes. La neta de CLE (+4.29 vs LAL +1.96) favorece a los Cavaliers en papel, pero Luka como superstar individual supera cualquier ventaja en neta a nivel de equipo.</li>
-      <li><strong>Marcus Smart OUT + Adou Thiero OUT para LAL</strong>: Las bajas de Smart y Thiero limitan la profundidad defensiva de LAL. Sin embargo, Luka + LeBron + Austin Reaves es suficiente contra CLE de visitante, y Hachimura (cuestionable/pantorrilla) podría regresar. El spread -2.5 mínimo refleja el respeto del mercado hacia la calidad de CLE.</li>
-      <li class="pred-bullet">🎯 Predicción: LAL 124 — CLE 118 · Luka regresa con 35 pts en Crypto.com Arena en el mejor partido del martes; LAL cubre -2.5 con el empuje emocional del retorno del #1 scorer de la NBA.</li>
+      <li><strong>OKC net +10.97 — la mejor de la liga · 32-6 en Paycom (84%)</strong>: OKC es estructuralmente superior en todas las categorías de métricas. Permiten solo 107.6 PPG (mejor defensa de la liga). SGA, Holmgren, Williams y Wallace activos. El spread subió de -8.5 a -9.5 por movimiento sharp — el mercado inteligente confía en OKC para cubrir una línea grande en casa. Históricamente LAL no ha podido seguirles el ritmo en Oklahoma City.</li>
+      <li><strong>Luka 3 juegos consecutivos con 40+ pts — ¿puede continuar vs la mejor defensa de la liga?</strong>: Luka el año pasado vs OKC anotó 19 pts en 7-20 desde el campo — su peor partido del año. OKC tiene múltiples defensores para contenerlo: Dort, Wallace, Williams y el sistema de Holmgren por atrás. La pregunta es si este Luka W4 con 9-1 últimos 10 puede sortear la mejor defensa que ha enfrentado en el último mes.</li>
+      <li><strong>LAL W4 + 9-1 últimos 10 — la mejor forma de cualquier equipo visitante del jueves</strong>: LAL ha encontrado su mejor versión. 17-5 en los últimos 22 juegos, back-to-back 50 wins seasons por primera vez en 15 años. Sin Smart, pero con Ayton (regresó de espalda) y LaRavia activos. 24-14 de visitante (63%) — el mejor record de road de todos los visitantes del jueves. LAL +9.5 a -118 es el precio de mayor valor del martes para apostadores que crean en el underdog.</li>
+      <li class="pred-bullet">🎯 Predicción: OKC 119 — LAL 108 · SGA 32 pts domina en Paycom; OKC defiende el spread -9.5 con su defensa élite frenando a Luka en territorio del #1 del Oeste con la tercera mejor defensa de toda la temporada.</li>
     </ul>
   </div>
 </div>
 
-<!-- ─── J7: POR @ LAC ─── -->
-<div class="card" id="j7">
+<!-- ─── J4: CLE @ GSW ─── -->
+<div class="card" id="j4">
   <div class="card-head">
-    <span class="game-num">Juego 7</span>
-    <span class="game-matchup">Portland Trail Blazers (+5.5) @ LA Clippers (-5.5)</span>
-    <span class="game-time">10:10 PM CST · Intuit Dome, Inglewood</span>
-    <span class="tag-playin">Play-In Oeste 8° vs 9°</span>
+    <span class="game-num">Juego 4</span>
+    <span class="game-matchup">Cleveland Cavaliers (-10.5) @ Golden State Warriors (+10.5)</span>
+    <span class="game-time">9:10 PM CST · Chase Center, San Francisco</span>
   </div>
   <div class="odds-strip">
     <div class="odds-cell">
       <div class="odds-lbl">Total O/U (DK)</div>
       <div class="odds-val">227.5</div>
-      <div class="odds-sub">Over -110 / Under -110</div>
+      <div class="odds-sub">Over -115 / Under -105</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">ML (DK)</div>
-      <div class="odds-val">LAC -225 · POR +185</div>
-      <div class="odds-sub">LAC gran favorito</div>
+      <div class="odds-val">CLE -470 · GSW +360</div>
+      <div class="odds-sub">CLE masivo favorito</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">Polymarket</div>
-      <div class="odds-val hi">LAC ~82% / POR ~20%</div>
-      <div class="odds-sub">Play-In directo 8° vs 9° Oeste</div>
+      <div class="odds-val hi">CLE 80% / GSW 22%</div>
+      <div class="odds-sub">$4.64K vol · sin Curry</div>
     </div>
     <div class="odds-cell">
       <div class="odds-lbl">Spread DK</div>
-      <div class="odds-val">LAC -5.5 (-105) · POR +5.5 (-115)</div>
+      <div class="odds-val">CLE -10.5 (-105) · GSW +10.5 (-115)</div>
     </div>
   </div>
   <div class="stats-wrap">
     <table class="stats-tbl">
-      <thead>
-        <tr><th>Estadística</th><th>Blazers (visitante)</th><th>Clippers (local)</th><th>Ventaja</th></tr>
-      </thead>
+      <thead><tr><th>Estadística</th><th>Cavaliers (visitante)</th><th>Warriors (local)</th><th>Ventaja</th></tr></thead>
       <tbody>
-        <tr><td>Récord</td><td>38-38 · 9° Oeste</td><td>39-36 · 8° Oeste</td><td><span class="adv adv-h">LAC</span></td></tr>
-        <tr><td>Pts anotados/partido</td><td>115.3</td><td>114.0</td><td><span class="adv adv-a">POR</span></td></tr>
-        <tr><td>Pts permitidos/partido</td><td>116.2</td><td>112.5</td><td><span class="adv adv-h">LAC</span></td></tr>
-        <tr><td>Net Rating</td><td>-0.80</td><td>+1.49</td><td><span class="adv adv-h">LAC</span></td></tr>
-        <tr><td>Racha activa</td><td>W1</td><td>W5</td><td><span class="adv adv-h">LAC</span></td></tr>
-        <tr><td>Últimos 10</td><td>7-3</td><td>6-4</td><td><span class="adv adv-a">POR</span></td></tr>
-        <tr><td>Rec. Local</td><td>—</td><td>21-15 (58%)</td><td><span class="adv adv-h">LAC</span></td></tr>
-        <tr><td>Rec. Visitante</td><td>17-21 (45%)</td><td>—</td><td><span class="adv adv-h">LAC</span></td></tr>
+        <tr><td>Récord</td><td>47-29 · 4° Este</td><td>36-40 · 10° Oeste Play-In</td><td><span class="adv adv-a">CLE</span></td></tr>
+        <tr><td>Pts anotados/partido</td><td>119.3</td><td>114.9</td><td><span class="adv adv-a">CLE</span></td></tr>
+        <tr><td>Pts permitidos/partido</td><td>115.3</td><td>115.1</td><td><span class="adv adv-h">GSW</span></td></tr>
+        <tr><td>Net Rating</td><td>+4.05</td><td>-0.21</td><td><span class="adv adv-a">CLE</span></td></tr>
+        <tr><td>Racha activa</td><td>L1</td><td>L2</td><td><span class="adv adv-a">CLE</span></td></tr>
+        <tr><td>Últimos 10</td><td>7-3</td><td>4-6</td><td><span class="adv adv-a">CLE</span></td></tr>
+        <tr><td>Rec. Local</td><td>—</td><td>21-16 (57%)</td><td><span class="adv adv-h">GSW</span></td></tr>
+        <tr><td>Rec. Visitante</td><td>23-15 (61%)</td><td>—</td><td><span class="adv adv-a">CLE</span></td></tr>
       </tbody>
     </table>
   </div>
   <div class="analysis">
-    <div class="section-label">Lo que está en juego — Play-In Oeste directo 8° vs 9° · Solo 1 juego de diferencia</div>
-    <p class="analysis-lead">El partido con las mayores implicaciones del Play-In del Oeste del martes: LAC (39-36, 8° Oeste, W5) recibe a POR (38-38, 9° Oeste, W1) en el Intuit Dome. <strong>1 solo juego los separa</strong> en la tabla del Play-In occidental. <strong>Darius Garland</strong> (~22 PPG) y Kawhi Leonard (game-time, tobillo) lideran LAC. <strong>Scoot Henderson</strong> y Donovan Clingan para POR. Si POR gana, empatan. Si LAC gana W6, consolida el 8° seed con ventaja en el Play-In.</p>
+    <div class="section-label">Lo que está en juego — CLE busca rebotar de L1 vs LAL · GSW sin Curry · 4° Este vs 10° Oeste</div>
+    <p class="analysis-lead">Cleveland (47-29, 4° Este, L1 vs LAL 113-127 ayer) visita el Chase Center de Golden State (36-40, 10° Oeste Play-In, L2) sin <strong>Stephen Curry</strong> (runner's knee, fuera desde enero). CLE viene motivado para rebotar — Mitchell, Jarrett Allen, Harden y Mobley activos. GSW depende de Draymond Green, Kristaps Porzingis y Jimmy Butler III. El spread de -10.5 para CLE refleja la diferencia real entre ambos equipos. CLE 80% Polymarket.</p>
     <ul class="bullets">
-      <li><strong>LAC W5 — la mejor racha del martes entre partidos competitivos</strong>: 21-15 en Intuit Dome (58%). Net +1.49 vs POR -0.80. Garland activo. El momentum de 5 victorias consecutivas combinado con la cancha local dan a LAC el argumento más sólido del martes en términos de forma reciente.</li>
-      <li><strong>POR 7-3 últimos 10 — forma reciente superior</strong>: El mejor registro de últimos-10 del partido para el visitante. Clingan dominando el interior, Henderson desarrollándose. 17-21 de visitante (45%) limita las expectativas de POR. Un upset aquí no sería imposible dado los últimos-10, pero LAC en casa con W5 es favorito correcto.</li>
-      <li><strong>Play-In Oeste 8° vs 9° — implicaciones máximas</strong>: Si LAC (8°) y PHX (7°) juegan en el Play-In, el 8° enfrenta al 7° en el primer partido. Si LAC cae al 9°, enfrenta al 10° (GSW, sin Curry). El resultado de este partido determina cuál de los dos es el más vulnerable en el Play-In.</li>
-      <li class="pred-bullet">🎯 Predicción: LAC 119 — POR 109 · Garland 26 pts en Intuit Dome con Kawhi activo; LAC consolida el 8° seed con W6 en el partido de Play-In directo más importante del martes.</li>
+      <li><strong>CLE net +4.05 + 7-3 últimos 10 vs GSW -0.21 + 4-6</strong>: Diferencial de net rating de +4.26 favorable a CLE. GSW L2 activa sin Curry desde enero (13-23 sin él esta temporada). Mitchell viene motivado para rebotar de la derrota de ayer vs LAL donde CLE fue superado 113-127.</li>
+      <li><strong>GSW 21-16 en Chase Center (57%) — el único argumento</strong>: Sin Curry, GSW confía en Draymond Green como motor, Porzingis (llegó de ATL) como opción interior y Butler III como scorer secundario. El ambiente de Chase Center siempre es una variable. GSW +10.5 en casa sin Curry no genera ningún argumento de cobertura fuerte.</li>
+      <li><strong>CLE + motivación de play-off seeding</strong>: CLE (4° Este) vs TOR (42-34, 7° Este con desempate vs PHI) — el matchup del 4to seed del Este en playoffs depende de las últimas 6 victorias. Una victoria aquí mantiene a CLE como 4° seed y consolida el match vs TOR en primera ronda.</li>
+      <li class="pred-bullet">🎯 Predicción: CLE 122 — GSW 108 · Mitchell 28 pts rebota de la L de ayer; CLE cubre -10.5 ante un GSW L2 sin Curry donde la ventaja de calidad del 4° seed del Este es clara y contundente.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ─── J5: NOP @ POR ─── -->
+<div class="card" id="j5">
+  <div class="card-head">
+    <span class="game-num">Juego 5</span>
+    <span class="game-matchup">New Orleans Pelicans (+6.5) @ Portland Trail Blazers (-6.5)</span>
+    <span class="game-time">9:10 PM CST · Moda Center, Portland</span>
+    <span class="tag-playin">Play-In Oeste 9° POR</span>
+  </div>
+  <div class="odds-strip">
+    <div class="odds-cell">
+      <div class="odds-lbl">Total O/U (DK)</div>
+      <div class="odds-val">232.5</div>
+      <div class="odds-sub">Over -112 / Under -108</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">ML (DK)</div>
+      <div class="odds-val">POR -250 · NOP +205</div>
+      <div class="odds-sub">POR gran favorito en Moda</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">Polymarket</div>
+      <div class="odds-val hi">POR 73% / NOP 28%</div>
+      <div class="odds-sub">$4.43K vol · Play-In Oeste</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">Spread DK</div>
+      <div class="odds-val">POR -6.5 (-108) · NOP +6.5 (-112)</div>
+    </div>
+  </div>
+  <div class="stats-wrap">
+    <table class="stats-tbl">
+      <thead><tr><th>Estadística</th><th>Pelicans (visitante)</th><th>Blazers (local)</th><th>Ventaja</th></tr></thead>
+      <tbody>
+        <tr><td>Récord</td><td>25-51 · 11° Oeste</td><td>39-38 · 9° Oeste Play-In</td><td><span class="adv adv-h">POR</span></td></tr>
+        <tr><td>Pts anotados/partido</td><td>115.1</td><td>115.3</td><td><span class="adv adv-e">PAR</span></td></tr>
+        <tr><td>Pts permitidos/partido</td><td>119.5</td><td>116.0</td><td><span class="adv adv-h">POR</span></td></tr>
+        <tr><td>Net Rating</td><td>-4.42</td><td>-0.66</td><td><span class="adv adv-h">POR</span></td></tr>
+        <tr><td>Racha activa</td><td>L5</td><td>W2</td><td><span class="adv adv-h">POR</span></td></tr>
+        <tr><td>Últimos 10</td><td>4-6</td><td>7-3</td><td><span class="adv adv-h">POR</span></td></tr>
+        <tr><td>Rec. Local</td><td>—</td><td>21-17 (55%)</td><td><span class="adv adv-h">POR</span></td></tr>
+        <tr><td>Rec. Visitante</td><td>9-28 (24%)</td><td>—</td><td><span class="adv adv-h">POR</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="analysis">
+    <div class="section-label">Lo que está en juego — POR (9° Oeste Play-In) consolida posición · NOP L5 en tanking</div>
+    <p class="analysis-lead">Portland (39-38, 9° Oeste Play-In, W2) recibe a New Orleans (25-51, 11° Oeste, L5) en Moda Center en un partido de máxima importancia para POR en la lucha del Play-In del Oeste. POR viene de ganar vs LAC ayer 114-104 — confirmando que el equipo está en su mejor momento de la temporada. <strong>Scoot Henderson</strong> y <strong>Donovan Clingan</strong> activos. NOP L5, 9-28 de visitante (el peor record de road del jueves).</p>
+    <ul class="bullets">
+      <li><strong>POR W2 + 7-3 últimos 10 + net superior</strong>: POR -0.66 vs NOP -4.42. 7-3 en los últimos 10 y ahora con W2 activas. La victoria de ayer vs LAC 114-104 fue significativa para el Play-In — POR ahora está a 1 juego de LAC (39-37) en el 8° seed. Henderson emergiendo como scorer de primer nivel.</li>
+      <li><strong>NOP L5 + 9-28 visitante (24%)</strong>: El peor record de road de cualquier equipo del jueves. Net -4.42 con una defensa que permite 119.5 PPG. Sin Zion Williamson (temporada), sin CJ McCollum (lesión). Brandon Ingram (cedido a TOR) ya no está. NOP en modo tanking completo para el draft lottery.</li>
+      <li><strong>Play-In Oeste 9° vs 10°</strong>: POR (9°) y GSW (10°) son los candidatos a jugar el Play-In del Oeste contra el perdedor del 7°-8°. Una victoria de POR mantiene el 9° seed. GSW también juega hoy vs CLE — si ambas ganan, el Play-In del 9°-10° sigue siendo POR vs GSW.</li>
+      <li class="pred-bullet">🎯 Predicción: POR 121 — NOP 105 · Clingan 18 pts + 12 reb domina en Moda; POR cubre -6.5 ante un NOP L5 con el peor record de visitante del jueves (9-28) y sin motivación competitiva.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ─── J6: SAS @ LAC ─── -->
+<div class="card" id="j6">
+  <div class="card-head">
+    <span class="game-num">Juego 6</span>
+    <span class="game-matchup">San Antonio Spurs (-3.5) @ LA Clippers (+3.5)</span>
+    <span class="game-time">9:40 PM CST · Intuit Dome, Inglewood</span>
+    <span class="tag-alert">🔥 SAS W10 · Wemby Player of Night</span>
+  </div>
+  <div class="odds-strip">
+    <div class="odds-cell">
+      <div class="odds-lbl">Total O/U (DK)</div>
+      <div class="odds-val hi">230.5</div>
+      <div class="odds-sub">Over -108 / Under -112</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">ML (DK)</div>
+      <div class="odds-val hi">SAS -162 · LAC +136</div>
+      <div class="odds-sub">SAS favorito de visitante</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">Polymarket</div>
+      <div class="odds-val hi">SAS 62% / LAC 39%</div>
+      <div class="odds-sub">$19.42K vol · mayor del jueves</div>
+    </div>
+    <div class="odds-cell">
+      <div class="odds-lbl">Spread DK</div>
+      <div class="odds-val hi">SAS -3.5 (-108) · LAC +3.5 (-112)</div>
+    </div>
+  </div>
+  <div class="stats-wrap">
+    <table class="stats-tbl">
+      <thead><tr><th>Estadística</th><th>Spurs (visitante)</th><th>Clippers (local)</th><th>Ventaja</th></tr></thead>
+      <tbody>
+        <tr><td>Récord</td><td>58-18 · 2° Oeste</td><td>39-37 · 8° Oeste Play-In</td><td><span class="adv adv-a">SAS</span></td></tr>
+        <tr><td>Pts anotados/partido</td><td>119.6</td><td>113.9</td><td><span class="adv adv-a">SAS</span></td></tr>
+        <tr><td>Pts permitidos/partido</td><td>111.3</td><td>112.5</td><td><span class="adv adv-a">SAS</span></td></tr>
+        <tr><td>Net Rating</td><td>+8.30</td><td>+1.34</td><td><span class="adv adv-a">SAS</span></td></tr>
+        <tr><td>Racha activa</td><td>W10</td><td>L1</td><td><span class="adv adv-a">SAS</span></td></tr>
+        <tr><td>Últimos 10</td><td>10-0</td><td>5-5</td><td><span class="adv adv-a">SAS</span></td></tr>
+        <tr><td>Rec. Local</td><td>—</td><td>21-16 (57%)</td><td><span class="adv adv-h">LAC</span></td></tr>
+        <tr><td>Rec. Visitante</td><td>28-11 (72%)</td><td>—</td><td><span class="adv adv-a">SAS</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="analysis">
+    <div class="section-label">Lo que está en juego — SAS W10 · 2° Oeste vs Play-In 8° · Wemby en el mayor partido del cierre</div>
+    <p class="analysis-lead">El partido más atractivo del bloque tardío del jueves: <strong>Victor Wembanyama</strong> (Player of Night anoche — en racha histórica) y los <strong>San Antonio Spurs</strong> (58-18, 2° Oeste, W10, 10-0 últimos 10, net +8.30) visitan el Intuit Dome de LAC (39-37, 8° Oeste Play-In, L1). SAS viene de ayer el Player of Night y está a solo 2 juegos de OKC (60-16) con ~5 partidos restantes. LAC perdió vs POR 104-114 ayer — ahora en L1. El volumen de Polymarket $19.42K en SAS @ LAC es el más alto de todos los partidos del jueves — el mercado de dinero real pone atención máxima en este juego.</p>
+    <ul class="bullets">
+      <li><strong>SAS W10 + 28-11 de visitante (72%) + net +8.30</strong>: La racha de SAS (W10, 10-0 últimos 10) es la mejor en la liga actualmente. 28-11 de visitante (72%) — el mejor record de road del jueves por amplio margen. Net +8.30 vs LAC +1.34 — diferencial de +6.96. Wemby, De'Aaron Fox y Castle activos. SAS necesita cada W para seguir presionando a OKC en la carrera por el #1 del Oeste.</li>
+      <li><strong>LAC L1 + Play-In 8° vs POR (9°)</strong>: LAC (39-37) ahora igual que POR (39-38) — la derrota de ayer vs POR empató el registro. LAC y POR están en empate virtual por el 8° y 9° seed del Play-In. Una derrota vs SAS pondría a LAC en situación crítica. Garland activo, Kawhi Leonard en game-time decision. $19.42K vol en Polymarket confirma la relevancia.</li>
+      <li><strong>SAS favorito de visitante -3.5 a -108 — precio razonable para el 2° mejor equipo de la liga</strong>: SAS es el 2° mejor equipo de la NBA con W10 activa. Ser favorito de visitante -3.5 en el Intuit Dome es perfectamente justificable dada la diferencia de net rating (+6.96), record de visitante (72%) y la racha activa. El mercado 62% para SAS es conservador si se consideran los números.</li>
+      <li class="pred-bullet">🎯 Predicción: SAS 122 — LAC 113 · Wembanyama 28 pts + 11 reb extiende W11; SAS cubre -3.5 de visitante con su mejor defensa de la temporada (28-11 road) ante un LAC L1 sin motivación de seeding en el Play-In.</li>
     </ul>
   </div>
 </div>
@@ -636,56 +546,56 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 <div class="conclusions" id="conclusiones">
   <div class="concl-header">
     <h2>CONCLUSIONES CLAVE</h2>
-    <p>Análisis y picks finales — Martes 31 de Marzo, 2026 · 7 partidos</p>
+    <p>Análisis y picks finales — Jueves 2 de Abril, 2026 · 6 partidos</p>
   </div>
   <div class="concl-grid">
 
     <div class="concl-card pick">
       <div class="concl-icon">🎯</div>
       <div class="concl-lbl">Pick del Día</div>
-      <div class="concl-pick">LAL -2.5</div>
-      <div class="concl-sub">Los Angeles Lakers vs Cavaliers · DK -102 · Luka regresa · 9-1 últimos 10</div>
-      <div class="concl-body">LAL -2.5 a precio -102 (el más económico del día para un favorito) con Luka Doncic de regreso tras su suspensión de 1 juego. El dato clave: LAL es 9-1 en sus últimos 10 partidos con Luka en cancha. En Crypto.com (25-12, 68%) ante un CLE de visitante (23-14, 62%), Luka hambriento de revancha tras un día de forzada inactividad es el factor emocional más poderoso del martes. La neta de CLE (+4.29) es superior en papel, pero Luka como superstar individual es el diferencial que los números no capturan. Precio -102 para LAL -2.5 es el mejor valor del día para un favorito.</div>
+      <div class="concl-pick">SAS -3.5</div>
+      <div class="concl-sub">San Antonio Spurs @ LA Clippers · DK -108 · W10 · 28-11 de visitante · Polymarket $19.42K</div>
+      <div class="concl-body">SAS -3.5 de visitante a -108 es el pick de mayor valor del jueves. SAS viene con W10 (10-0 últimos 10), 28-11 de visitante (72% — el mejor record de road de todos los participantes del jueves), net +8.30 vs LAC +1.34. Wemby en el mejor momento de la temporada tras el Player of Night de anoche. LAC L1 (perdió 104-114 vs POR ayer) con el peso del Play-In encima. El volumen de $19.42K en Polymarket (el mayor del jueves) confirma que el mercado inteligente está tomando posición en SAS. Precio -108 para el 2° mejor equipo de la liga de visitante contra un Play-In team en L1 es excepcional.</div>
     </div>
 
     <div class="concl-card">
       <div class="concl-icon">🏀</div>
       <div class="concl-lbl">Partido de la Jornada</div>
-      <div class="concl-pick">CLE @ LAL · Crypto.com Arena</div>
-      <div class="concl-sub">Luka regresa · Mitchell vs Doncic · 4° Este vs 3° Oeste · 236.5 total</div>
-      <div class="concl-body">El partido con más narrativa del martes: el regreso de Luka Doncic (#1 scorer 32.9 PPG) al Crypto.com Arena tras su suspensión de 1 juego. Mitchell (W2, ~27 PPG) vs Luka — el duelo de playmakers más electrizante del martes. Total 236.5 — el más alto de la jornada por 8 puntos de diferencia. 4° seed del Este (CLE) vs 3° seed del Oeste (LAL) en una potencial preview de Finales si los brackets se mantienen. Tres narrativas en uno: regreso dramático, seeding crucial y total explosivo.</div>
+      <div class="concl-pick">LAL @ OKC · Paycom Center</div>
+      <div class="concl-sub">Luka 15,000 pts carrera · SGA vs Doncic · 1° vs 3° Oeste · Prime · $18.38K Polymarket</div>
+      <div class="concl-body">El partido con más narrativa del jueves: Luka Doncic (3 juegos consecutivos con 40+ pts, 15,000 puntos de carrera ayer) visita el Paycom Center de SGA (2-0 contra Luka esta temporada). OKC spread que subió de -8.5 a -9.5 por acción sharp. Total 232.5 — el más alto del jueves. 73% Polymarket para OKC. Este es el partido que podría determinar si LAL puede competir con OKC en una eventual serie de playoff en el Oeste — una prueba de fuego para los Lakers en su mejor momento de la temporada.</div>
     </div>
 
     <div class="concl-card">
       <div class="concl-icon">👑</div>
       <div class="concl-lbl">MVP Watch</div>
-      <div class="concl-pick">WEMBY 41/16 · SGA 71% PM · JOKIC 3% PM</div>
-      <div class="concl-sub">Actuación histórica ayer · SAS 57-18 W9 · A 3 juegos de OKC</div>
-      <div class="concl-body">La actuación más dominante de la temporada ocurrió anoche: Wembanyama 41 pts / 16 reb / 3 blk vs CHI — Player of Night oficial. SAS ahora 57-18 en W9, a solo 3 juegos de OKC (60-16) con ~7 partidos restantes. El debate MVP explota: SGA 71% Polymarket vs Wemby 22%. El martes no hay partido de SAS ni SGA — pero la actuación de Wemby domina la narrativa del día. Luka (32.9 PPG, #1 scorer) tiene la oportunidad de robar reflectores en su regreso dramático en Crypto.com.</div>
+      <div class="concl-pick">JOKIC 60% BBRef · SGA 28% · LUKA 5%</div>
+      <div class="concl-sub">🚨 BBRef cambia el panorama · DEN W7 · Luka 15,000 pts · Wemby Player of Night</div>
+      <div class="concl-body">La mayor sorpresa del día en el debate MVP: Basketball-Reference tiene al MVP Tracker con Jokic al 60%, SGA 28.3%, Luka 5.2% y Wemby 2.1% — ¡Jokic lidera el tracker de BBRef! DEN viene de W7 (49-28) con Jokic en su mejor momento estadístico del año (múltiples triple-dobles seguidos). Polymarket mantiene SGA al 71%, pero el cambio en BBRef es significativo. El jueves no hay partido de SAS, DEN o Jokic — pero sí de SGA (vs Luka en Prime) y de Luka (en OKC). El resultado de OKC vs LAL podría mover las agujas del MVP discussion.</div>
     </div>
 
     <div class="concl-card">
       <div class="concl-icon">📊</div>
       <div class="concl-lbl">OVER/UNDER del Día</div>
-      <div class="concl-pick">UNDER TOR @ DET 220.5</div>
-      <div class="concl-sub">DET 109.6 PPG concede (mejor defensa Este) · TOR 112.0 PPG concede · Dos élites defensivos</div>
-      <div class="concl-body">El UNDER 220.5 en TOR @ DET es el bet de totales más claro del martes. DET permite solo 109.6 PPG (mejor defensa del Este, #2 de la liga). TOR permite 112.0 PPG (top-5 del Este). Cuando estas dos defensas se enfrentan en Little Caesars Arena, el marcador combinado raramente supera 220 pts. El total ya está ajustado bajo en 220.5, pero dado el contexto defensivo de ambos equipos, el UNDER sigue siendo la jugada con el mejor respaldo matemático del martes. DET motivada por el OT de ayer cierra aún más defensivamente.</div>
+      <div class="concl-pick">UNDER DET @ MIN 224.5</div>
+      <div class="concl-sub">DET 109.6 PPG concede (mejor Este) · MIN 114.1 PPG concede · Dos defensas sólidas</div>
+      <div class="concl-body">El UNDER 224.5 en MIN @ DET es el bet de totales de mayor valor del jueves. DET permite solo 109.6 PPG (mejor defensa del Este, #2 de la liga). MIN permite 114.1 PPG. Con estas dos defensas en Little Caesars Arena, el marcador combinado raramente supera 224. El Under 224.5 tiene el respaldo matemático más sólido del jueves — especialmente porque DET en casa tiende a jugar ritmo lento y controlar posesiones. Aunque MIN anota 117.9 PPG (el mejor ataque de los visitantes del jueves), la defensa de DET es el factor dominante.</div>
     </div>
 
     <div class="concl-card">
       <div class="concl-icon">⚔️</div>
       <div class="concl-lbl">Duelo de Rachas</div>
-      <div class="concl-pick">LAC W5 vs POR W1 · Play-In Oeste</div>
-      <div class="concl-sub">8° vs 9° Oeste · Intuit Dome · La racha más importante del martes</div>
-      <div class="concl-body">La racha más determinante del martes en términos de seeding: LAC lleva W5 activas (mejor racha del martes entre equipos competitivos) mientras POR viene de W1. Solo 1 juego los separa en el Play-In del Oeste (LAC 8°, POR 9°). Si LAC extiende a W6, consolida el 8° seed con ventaja en el Play-In. Si POR upset, empatan en 39-39 y el Play-In se convierte en una bomba de tiempo. El Intuit Dome cerrará el martes con el resultado que define el Play-In oeste del último tercio de la temporada.</div>
+      <div class="concl-pick">SAS W10 vs OKC W3</div>
+      <div class="concl-sub">Las dos mejores rachas del Oeste · 2 juegos separan a OKC de SAS en el #1 seed</div>
+      <div class="concl-body">La carrera más emocionante del final de la temporada regular: OKC (60-16, W3, 9-1 últimos 10) vs SAS (58-18, W10, 10-0 últimos 10). OKC juega vs LAL en casa — favorito -9.5. SAS juega vs LAC de visitante — favorito -3.5. Si ambos ganan, la diferencia sigue en 2 juegos con ~4 partidos restantes. Si SAS gana y OKC pierde, la diferencia baja a 1. El duelo de rachas W10 (SAS) vs W3 (OKC) marca el final de la temporada regular del Oeste como el más emocionante de la última década.</div>
     </div>
 
     <div class="concl-card">
       <div class="concl-icon">🚫</div>
       <div class="concl-lbl">Equipos a Evitar</div>
-      <div class="concl-pick">BKN / DAL / MIL</div>
-      <div class="concl-sub">BKN 1-9 últimos 10 · DAL 10-26 de visitante · MIL L4 sin Giannis</div>
-      <div class="concl-body">Tres equipos en tanking completo sin motivación competitiva. Brooklyn (1-9 últimos 10, net -9.13, solo 106.3 PPG) recibe a Charlotte con el spread más grande del martes (-17.5). Dallas (10-26 de visitante, 28%) viaja a Milwaukee con spread -1.5 siendo el equipo con peor record de visitante del martes — apostando por el visitante más mediocre de la jornada. Milwaukee (L4, 2-8 últimos 10) sin Giannis en Fiserv. Evitar los tres en cualquier apuesta a su favor y tener precaución con el DAL @ MIL por la paridad mínima entre dos equipos sin rumbo.</div>
+      <div class="concl-pick">NOP / GSW / PHX</div>
+      <div class="concl-sub">NOP L5 + 9-28 visitante · GSW L2 sin Curry · PHX L1 con 3 bajas clave</div>
+      <div class="concl-body">Tres equipos sin argumentos para apostar a su favor. New Orleans (L5, 9-28 de visitante — el peor del jueves, net -4.42) visita a POR con spread +6.5. Golden State (L2 sin Curry desde enero, net -0.21) recibe a CLE con spread +10.5 — GSW en casa sin el mejor jugador de su historia moderna no genera valor. Phoenix (L1, 3-7 últimos 10, con 3 bajas clave — Williams, Highsmith y Coffey) visita Spectrum Center de CHA con spread +5.5. Los tres tienen propuestas de apuesta a su favor pero carecen de argumentos reales para cubrirlos.</div>
     </div>
 
   </div>
@@ -695,7 +605,7 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 <div class="injuries" id="lesiones">
   <div class="inj-header">
     <div class="inj-title">REPORTE DE LESIONES</div>
-    <div class="inj-source">ESPN · CBS Sports · Yardbarker · TheRX · BasketballSphere — 31 Mar 2026</div>
+    <div class="inj-source">ESPN · Heavy.com · Fadeaway World · Yardbarker · SBD — 2 Abr 2026</div>
   </div>
   <div class="status-legend">
     <div class="sl"><div class="sl-dot out"></div>BAJA</div>
@@ -706,123 +616,116 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
   </div>
 
   <div class="inj-matchup">
-    <div class="inj-matchup-title">Phoenix Suns @ Orlando Magic · 6:10 PM CST</div>
-    <div class="inj-team">
-      <div class="inj-team-name">PHOENIX SUNS</div>
+    <div class="inj-matchup-title">Phoenix Suns @ Charlotte Hornets · 7:10 PM CST</div>
+    <div class="inj-team"><div class="inj-team-name">PHOENIX SUNS — 3 BAJAS EN ROTACIÓN</div>
       <table class="inj-tbl">
-        <tr><td>Devin Booker</td><td>G</td><td>Activo — disponible tras 131 vs MEM ayer</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Kevin Durant</td><td>F</td><td>Activo — 25.8 PPG, dominó ayer vs MEM</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-      </table>
-    </div>
-    <div class="inj-team">
-      <div class="inj-team-name">ORLANDO MAGIC</div>
-      <table class="inj-tbl">
-        <tr><td>Franz Wagner</td><td>F</td><td>Tobillo — fuera indefinidamente</td><td><span class="sbadge out">BAJA</span></td></tr>
-        <tr><td>Anthony Black</td><td>G</td><td>Sin especificar — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
-        <tr><td>Paolo Banchero</td><td>F</td><td>Activo — 22.7 PPG, lider ofensivo</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Wendell Carter Jr.</td><td>C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-      </table>
-    </div>
-  </div>
-
-  <div class="inj-matchup">
-    <div class="inj-matchup-title">New York Knicks @ Houston Rockets · 7:10 PM CST</div>
-    <div class="inj-team">
-      <div class="inj-team-name">NEW YORK KNICKS</div>
-      <table class="inj-tbl">
-        <tr><td>Jalen Brunson</td><td>G</td><td>Activo — 26.2 PPG / 6.7 APG</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Karl-Anthony Towns</td><td>C</td><td>Activo — 20.1 PPG / 11.9 REB últimos 10</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>OG Anunoby</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-      </table>
-    </div>
-    <div class="inj-team">
-      <div class="inj-team-name">HOUSTON ROCKETS</div>
-      <table class="inj-tbl">
+        <tr><td>Mark Williams</td><td>C</td><td>Pie derecho — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Haywood Highsmith</td><td>F</td><td>Rodilla — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Amir Coffey</td><td>G/F</td><td>Tobillo — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Devin Booker</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
         <tr><td>Kevin Durant</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Alperen Sengun</td><td>C</td><td>Activo — 21.3 PPG / 10.2 REB</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Amen Thompson</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+      </table>
+    </div>
+    <div class="inj-team"><div class="inj-team-name">CHARLOTTE HORNETS</div>
+      <table class="inj-tbl">
+        <tr><td>PJ Hall</td><td>F</td><td>Tobillo — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Kon Knueppel</td><td>G</td><td>Activo — ROY 71% Polymarket · ~19 PPG</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>LaMelo Ball</td><td>G</td><td>Activo — 19.7 PPG / 24.2 últimos 5</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
       </table>
     </div>
   </div>
 
   <div class="inj-matchup">
-    <div class="inj-matchup-title">Cleveland Cavaliers @ Los Angeles Lakers · 9:40 PM CST ⭐ JUEGO DEL DÍA 🏀 Luka regresa</div>
-    <div class="inj-team">
-      <div class="inj-team-name">CLEVELAND CAVALIERS</div>
+    <div class="inj-matchup-title">Minnesota Timberwolves @ Detroit Pistons · 7:10 PM CST · Amazon Prime</div>
+    <div class="inj-team"><div class="inj-team-name">MINNESOTA TIMBERWOLVES</div>
       <table class="inj-tbl">
-        <tr><td>Donovan Mitchell</td><td>G</td><td>Activo — ~27 PPG / 5.5 APG</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Jarrett Allen</td><td>C</td><td>Activo — domina el interior</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>James Harden</td><td>G</td><td>Activo — playmaker de lujo</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Evan Mobley</td><td>F/C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Anthony Edwards</td><td>G</td><td>Activo — 27+ PPG último mes</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Rudy Gobert</td><td>C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Julius Randle</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
       </table>
     </div>
-    <div class="inj-team">
-      <div class="inj-team-name">LOS ANGELES LAKERS</div>
-      <table class="inj-tbl">
-        <tr><td>Luka Doncic</td><td>G</td><td>REGRESA — suspensión 1 juego cumplida · 32.9 PPG #1 scorer NBA</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>LeBron James</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Austin Reaves</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Rui Hachimura</td><td>F</td><td>Pantorrilla — cuestionable</td><td><span class="sbadge q">CUESTIONABLE</span></td></tr>
-        <tr><td>Marcus Smart</td><td>G</td><td>Tobillo derecho (contusión) — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
-        <tr><td>Adou Thiero</td><td>F</td><td>Rodilla izquierda — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
-      </table>
-    </div>
-  </div>
-
-  <div class="inj-matchup">
-    <div class="inj-matchup-title">Toronto Raptors @ Detroit Pistons · 7:10 PM CST</div>
-    <div class="inj-team">
-      <div class="inj-team-name">TORONTO RAPTORS</div>
-      <table class="inj-tbl">
-        <tr><td>Brandon Ingram</td><td>F</td><td>Activo — 34 pts vs ORL ayer</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>RJ Barrett</td><td>G/F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Scottie Barnes</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-      </table>
-    </div>
-    <div class="inj-team">
-      <div class="inj-team-name">DETROIT PISTONS</div>
+    <div class="inj-team"><div class="inj-team-name">DETROIT PISTONS</div>
       <table class="inj-tbl">
         <tr><td>Cade Cunningham</td><td>G</td><td>Pulmón colapsado — re-evaluación continua</td><td><span class="sbadge out">BAJA</span></td></tr>
         <tr><td>Jalen Duren</td><td>C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
         <tr><td>Ausar Thompson</td><td>G/F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Tobias Harris</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Daniss Jenkins</td><td>G</td><td>Activo — playmaker principal sin Cade</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
       </table>
     </div>
   </div>
 
   <div class="inj-matchup">
-    <div class="inj-matchup-title">Portland Trail Blazers @ LA Clippers · 10:10 PM CST</div>
-    <div class="inj-team">
-      <div class="inj-team-name">LA CLIPPERS</div>
+    <div class="inj-matchup-title">Los Angeles Lakers @ Oklahoma City Thunder · 8:40 PM CST ⭐ JUEGO DEL DÍA · Amazon Prime</div>
+    <div class="inj-team"><div class="inj-team-name">LOS ANGELES LAKERS</div>
       <table class="inj-tbl">
-        <tr><td>Darius Garland</td><td>G</td><td>Activo — ~22 PPG, líder ofensivo</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Kawhi Leonard</td><td>F</td><td>Tobillo izquierdo — evaluar antes del juego</td><td><span class="sbadge gt">GAME-TIME</span></td></tr>
+        <tr><td>Luka Doncic</td><td>G</td><td>Activo — 3 juegos consecutivos 40+ pts · 15,000 puntos carrera</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>LeBron James</td><td>F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Austin Reaves</td><td>G</td><td>Activo — 2do scorer · career year</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Deandre Ayton</td><td>C</td><td>Activo — regresó de espalda</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Marcus Smart</td><td>G</td><td>Tobillo derecho — 6° juego consecutivo ausente</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Adou Thiero</td><td>F</td><td>Rodilla izquierda — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
       </table>
     </div>
-    <div class="inj-team">
-      <div class="inj-team-name">PORTLAND TRAIL BLAZERS</div>
+    <div class="inj-team"><div class="inj-team-name">OKLAHOMA CITY THUNDER</div>
       <table class="inj-tbl">
-        <tr><td>Scoot Henderson</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Donovan Clingan</td><td>C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Anfernee Simons</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Shai Gilgeous-Alexander</td><td>G</td><td>Activo — 31.4 PPG · MVP 28% BBRef</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Chet Holmgren</td><td>C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Jalen Williams</td><td>G/F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Lu Dort</td><td>G/F</td><td>Activo — principal defensor vs Luka</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Cason Wallace</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
       </table>
     </div>
   </div>
 
   <div class="inj-matchup">
-    <div class="inj-matchup-title">Bajas de la liga con impacto en el martes y semana siguiente</div>
-    <div class="inj-team">
-      <div class="inj-team-name">CONTEXTO GENERAL — LIGAS</div>
+    <div class="inj-matchup-title">Cleveland Cavaliers @ Golden State Warriors · 9:10 PM CST</div>
+    <div class="inj-team"><div class="inj-team-name">GOLDEN STATE WARRIORS</div>
       <table class="inj-tbl">
-        <tr><td>Jaylen Brown (BOS)</td><td>G/F</td><td>Activo — regresó con 29 pts vs ATL ayer (Achilles ok)</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Jayson Tatum (BOS)</td><td>F</td><td>Injury management — fuera vs ATL ayer (26 pts vs CHA sábado)</td><td><span class="sbadge q">CUESTIONABLE</span></td></tr>
+        <tr><td>Stephen Curry</td><td>G</td><td>Runner's knee — fuera desde enero (13-23 sin él)</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Draymond Green</td><td>F</td><td>Activo — motor del equipo sin Curry</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Kristaps Porzingis</td><td>C</td><td>Activo — llegó de ATL en Feb.</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Jimmy Butler III</td><td>G/F</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+      </table>
+    </div>
+    <div class="inj-team"><div class="inj-team-name">CLEVELAND CAVALIERS</div>
+      <table class="inj-tbl">
+        <tr><td>Donovan Mitchell</td><td>G</td><td>Activo — ~27 PPG</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Jarrett Allen</td><td>C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>James Harden</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Evan Mobley</td><td>F/C</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="inj-matchup">
+    <div class="inj-matchup-title">San Antonio Spurs @ LA Clippers · 9:40 PM CST</div>
+    <div class="inj-team"><div class="inj-team-name">SAN ANTONIO SPURS</div>
+      <table class="inj-tbl">
+        <tr><td>Victor Wembanyama</td><td>C</td><td>Activo — Player of Night ayer · racha histórica</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>De'Aaron Fox</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Stephon Castle</td><td>G</td><td>Activo — disponible</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+      </table>
+    </div>
+    <div class="inj-team"><div class="inj-team-name">LA CLIPPERS</div>
+      <table class="inj-tbl">
+        <tr><td>Darius Garland</td><td>G</td><td>Activo — ~22 PPG</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Kawhi Leonard</td><td>F</td><td>Tobillo izquierdo — evaluar previo</td><td><span class="sbadge gt">GAME-TIME</span></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="inj-matchup">
+    <div class="inj-matchup-title">Bajas de la liga con impacto en la recta final</div>
+    <div class="inj-team"><div class="inj-team-name">CONTEXTO GENERAL</div>
+      <table class="inj-tbl">
+        <tr><td>Jayson Tatum (BOS)</td><td>F</td><td>Injury management — en evaluación día a día</td><td><span class="sbadge q">CUESTIONABLE</span></td></tr>
+        <tr><td>Cade Cunningham (DET)</td><td>G</td><td>Pulmón colapsado — sin fecha de retorno</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Stephen Curry (GSW)</td><td>G</td><td>Runner's knee — out desde enero · en scrimmage 5v5</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Tyrese Haliburton (IND)</td><td>G</td><td>Achilles — baja de temporada</td><td><span class="sbadge season">BAJA TEMPORADA</span></td></tr>
+        <tr><td>Franz Wagner (ORL)</td><td>F</td><td>Tobillo — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
+        <tr><td>Nikola Jokic (DEN)</td><td>C</td><td>Activo — MVP 60% BBRef · DEN W7 · no juega hoy</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
+        <tr><td>Marcus Smart (LAL)</td><td>G</td><td>Tobillo derecho — 6° juego ausente · día a día</td><td><span class="sbadge out">BAJA</span></td></tr>
         <tr><td>Giannis Antetokounmpo (MIL)</td><td>F</td><td>Sin especificar — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
-        <tr><td>Victor Wembanyama (SAS)</td><td>C</td><td>Activo — 41 pts / 16 reb vs CHI ayer · no juega hoy</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
-        <tr><td>Cade Cunningham (DET)</td><td>G</td><td>Pulmón colapsado — OUT</td><td><span class="sbadge out">BAJA</span></td></tr>
-        <tr><td>Stephen Curry (GSW)</td><td>G</td><td>Runner's knee — fuera desde enero</td><td><span class="sbadge out">BAJA</span></td></tr>
-        <tr><td>Tyrese Haliburton (IND)</td><td>G</td><td>Achilles — temporada completa</td><td><span class="sbadge season">BAJA TEMPORADA</span></td></tr>
-        <tr><td>Nikola Vucevic (BOS)</td><td>C</td><td>Dedo anular derecho (fractura)</td><td><span class="sbadge out">BAJA</span></td></tr>
-        <tr><td>Nikola Jokic (DEN)</td><td>C</td><td>Activo — no juega hoy · 5 triple-dobles consecutivos</td><td><span class="sbadge prob">ACTIVO</span></td></tr>
       </table>
     </div>
   </div>
@@ -830,19 +733,18 @@ body{background:var(--bg);color:var(--text);font-family:var(--body);font-size:14
 </div><!-- /content -->
 </div>
 
-<!-- FOOTER -->
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-sources">
-      <div class="fsrc"><strong>Cuotas, spreads y totales</strong>DraftKings via The Odds API — data oficial adjunta · 31 Mar 2026</div>
-      <div class="fsrc"><strong>Standings y récords</strong>SportsRadar NBA — data oficial adjunta · 31 Mar 2026</div>
+      <div class="fsrc"><strong>Cuotas, spreads y totales</strong>DraftKings via The Odds API — data oficial adjunta · 2 Abr 2026</div>
+      <div class="fsrc"><strong>Standings y récords</strong>SportsRadar NBA — data oficial adjunta · 2 Abr 2026</div>
       <div class="fsrc"><strong>Probabilidades</strong>Polymarket (dinero real) — polymarket.com/sports/nba</div>
-      <div class="fsrc"><strong>Lesiones</strong>ESPN · CBS Sports · Yardbarker · TheRX</div>
-      <div class="fsrc"><strong>Resultados lunes 30-mar</strong>FOX Sports / CBS Sports confirmados</div>
+      <div class="fsrc"><strong>Lesiones</strong>ESPN · Heavy.com · Fadeaway World · Yardbarker · SBD</div>
+      <div class="fsrc"><strong>Resultados 1-Abril</strong>FOX Sports confirmados · NBA.com</div>
     </div>
     <div class="footer-hr"></div>
-    <div class="footer-brand"><strong>Stats: SportsRadar + ESPN | Cuotas: DraftKings | Probabilidades: Polymarket — 31 Mar 2026</strong></div>
-    <div class="footer-disc">Aviso Legal: Este informe es únicamente para fines informativos y de entretenimiento. No es asesoramiento financiero ni de apuestas. Todas las cuotas y líneas están sujetas a cambios. Verifica siempre las líneas actuales antes de apostar. Por favor apuesta responsablemente. Datos verificados al 31 de Marzo de 2026.</div>
+    <div class="footer-brand"><strong>Stats: SportsRadar + ESPN | Cuotas: DraftKings | Probabilidades: Polymarket — 2 Abr 2026</strong></div>
+    <div class="footer-disc">Aviso Legal: Este informe es únicamente para fines informativos y de entretenimiento. No es asesoramiento financiero ni de apuestas. Todas las cuotas y líneas están sujetas a cambios. Verifica siempre las líneas actuales antes de apostar. Por favor apuesta responsablemente. Datos verificados al 2 de Abril de 2026.</div>
   </div>
 </footer>
 
